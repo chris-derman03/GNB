@@ -7,7 +7,7 @@ from naive_bayes import GNB
 # Example Training data
 #   One df for inputs
 #   One df (1 column) for output labels
-x_train = pd.read_csv("src/example_data/X-train.csv", header=None)
+x_train = pd.read_csv("src/example_data/X-train.csv", header=None) # Filepath for data was unique to my setup. Change as needed.
 y_train = pd.read_csv("src/example_data/y-train.csv", header=None)
 
 # Example prediction set (df of inputs)
