@@ -9,7 +9,7 @@ test.py demonstrates how to use the class.
   
   --> y_train should have the same number of rows as x_train and should be one column of labels.
   
-  --> .predict() should take in data to make predictions on. Should be array-like with rows for data points, and the same number of columns as x_train.
+  --> .predict() should take in data to make predictions on. Should be array-like with rows for data points, and the same number of columns (features) as x_train.
   
   
 accuracy.py explores the performance of this classifier.
