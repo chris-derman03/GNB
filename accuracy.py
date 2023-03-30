@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 # Example Training data
 #   One df for inputs
 #   One df (1 column) for output labels
-train_inputs = pd.read_csv("src/example_data/X-train.csv", header=None)
+train_inputs = pd.read_csv("src/example_data/X-train.csv", header=None) # Filepath for data was unique to my setup. Change as needed.
 train_labels = pd.read_csv("src/example_data/y-train.csv", header=None)
 
 # Make a train-test split, make predictions and find accuracy
