@@ -12,4 +12,4 @@ y_train = pd.read_csv("src/example_data/y-train.csv", header=None)
 test = pd.read_csv("src/example_data/X-test.csv")
 
 model = GNB()
-model.fit(x_train,y_train)
+print(model.fit(x_train,y_train))
