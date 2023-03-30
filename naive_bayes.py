@@ -3,8 +3,6 @@ import numpy as np
 
 class GNB:
 
-    x = 0
-
     def __init__(self):
         None
 
